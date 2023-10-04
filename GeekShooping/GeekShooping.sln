@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9C3BC289-8548-42B7-83C6-7819B2FBB5D3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{9C3BC289-8548-42B7-83C6-7819B2FBB5D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Web", "GeekShopping.Web\GeekShopping.Web.csproj", "{E759AD89-F66C-4FA4-8E5D-B4A2F1D9B841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2101387E-A2A1-4421-86A5-39A26CCD7EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Product.API", "GeekShopping.Product.API\GeekShopping.Product.API.csproj", "{6412395C-6FD7-438C-BD52-E774DAA7B51B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{E759AD89-F66C-4FA4-8E5D-B4A2F1D9B841}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E759AD89-F66C-4FA4-8E5D-B4A2F1D9B841}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E759AD89-F66C-4FA4-8E5D-B4A2F1D9B841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6412395C-6FD7-438C-BD52-E774DAA7B51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6412395C-6FD7-438C-BD52-E774DAA7B51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6412395C-6FD7-438C-BD52-E774DAA7B51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6412395C-6FD7-438C-BD52-E774DAA7B51B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E759AD89-F66C-4FA4-8E5D-B4A2F1D9B841} = {9C3BC289-8548-42B7-83C6-7819B2FBB5D3}
+		{6412395C-6FD7-438C-BD52-E774DAA7B51B} = {2101387E-A2A1-4421-86A5-39A26CCD7EBC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89D8EAB4-C4D0-42EC-ADCD-E10ED17C94A6}
